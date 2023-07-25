@@ -1,4 +1,4 @@
-# Pruning-Transformer-via-Sparsity
+## Pruning-Transformer-via-Sparsity
 
 Neural network pruning is a method that revolves around the intuitive idea of removing superfluous
 parts of a network that performs well but costs a lot of resources. Indeed, even though large neural
@@ -6,8 +6,7 @@ networks have proven countless times how well they could learn, it turns out tha
 are still useful after the training process is over. The idea is to eliminate these parts without impacting
 the network’s performance.
 
-Vision Transformer(vit) and Sparsity
-==
+# Vision Transformer(vit) and Sparsity
 
 Despite the impressive empirical performance, ViTs are generally heavy to train, and the trained
 models remain massive. That naturally motivates the study to reduce ViT inference and training
@@ -17,8 +16,7 @@ network pruning . Besides, structural sparsity (including group sparsity, and la
 presented. Recently, it has been applied to prune the transformer, by exploiting different candidates
 for pruning (including pruning multiple heads, and pruning the tokens).
 
-Sparse Vision Transformer Exploration
-==
+# Sparse Vision Transformer Exploration
 
 Our proposed techniques was mainly inspired by [Zhu et al. [2021], Chen et al. [2021]]. It starts from
 a randomly sparsified model; after optimizing several iterations, it shrinks a portion of parameters
