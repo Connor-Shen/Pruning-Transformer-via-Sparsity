@@ -1,0 +1,14 @@
+python3 /root/final_pj/main.py --model deit_base_patch16_224 \
+    --epochs 30 \
+    --batch-size 64 \
+    --data-set 'CIFAR' \
+    --output_dir ./final_pj/base_output/new \
+    --dist_url tcp://127.0.0.1:23305 \
+    --sparse_init fixed_ERK \
+    --density 0.2 \
+    --update_frequency 7000 \
+    --growth gradient \
+    --death magnitude \
+    --redistribution none \
+    --resume ./final_pj/base_output/checkpoint.pth \
+    --num_workers 5

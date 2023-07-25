@@ -1,0 +1,5 @@
+nohup: 忽略输入
+  File "base.sh", line 1
+    python3 /root/final_pj/main.py --model deit_base_patch16_224 \
+                                                               ^
+SyntaxError: invalid syntax
