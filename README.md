@@ -18,7 +18,7 @@ for pruning (including pruning multiple heads, and pruning the tokens).
 
 **Sparse Vision Transformer Exploration**
 
-Our proposed techniques was mainly inspired by [Zhu et al. [2021], Chen et al. [2021]]. It starts from
+Our proposed techniques was mainly inspired by [Zhu et al. [2021], Chen et al. [2021]](check detail in report). It starts from
 a randomly sparsified model; after optimizing several iterations, it shrinks a portion of parameters
 based on pre-defined pruning criterion(e.g. weight magnitude), and activates new connections. After
 upgrading the sparse topology, it trains the new subnetwork until the next update of the connectivity.
