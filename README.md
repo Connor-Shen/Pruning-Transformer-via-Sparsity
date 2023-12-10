@@ -26,7 +26,5 @@ based on pre-defined pruning criterion(e.g. weight magnitude), and activates new
 upgrading the sparse topology, it trains the new subnetwork until the next update of the connectivity.
 
 ### Heatmap of Attention probabilities for DeiT-Base and SViTE-Base with 40% Sparsity
-<div style="display:inline-block">
-  <img src="https://github.com/Connor-Shen/Pruning-Transformer-via-Sparsity/blob/main/img/heatmap_base.png" alt="image1" width="200">
-  <img src="https://github.com/Connor-Shen/Pruning-Transformer-via-Sparsity/blob/main/img/heatmap_sparse.png" alt="image2" width="200">
-</div>
+
+![img](https://github.com/Connor-Shen/Pruning-Transformer-via-Sparsity/blob/main/img/heatmap.png)
